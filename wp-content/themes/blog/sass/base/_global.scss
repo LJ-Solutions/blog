@@ -1,0 +1,34 @@
+//
+// Global structure configurations
+//
+//.content {
+  //@include breakpoint(800px) {
+    //text-align: center;
+    //width: span(3);
+  //}
+//} 
+a {
+  color: $moderate-green;
+  @include transition(color 300ms, background-color  300ms);
+}
+body {
+  @include font-properties(('Open Sans', sans-serif), $white, normal, normal, 0);
+  @include font-size(14px, 14px, 14px, 14px, 14px, 14px, 24px);
+  color: #333;
+  background-color: #fff;
+} 
+.site-main {
+  @include container(1170px);
+  .content-left {
+    width: span(8);
+    float: left;
+    max-width: 100%;
+    padding-left: 30px;
+  }
+  .content-right {
+    width: span(4);
+    float: left;
+    max-width: 100%;
+    padding-left: 30px;
+  }
+}

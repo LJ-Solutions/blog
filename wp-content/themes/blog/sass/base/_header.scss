@@ -1,0 +1,64 @@
+
+.navbar-inverse {
+  border: none;
+}
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  background: $mostly-black !important;
+  padding: 15px 0;
+  padding-bottom: 0;
+}
+.navbar-toggle {
+  margin-bottom: 23px !important;
+}
+.navbar-inverse {
+  .navbar-brand {
+    font-size: 36px;
+    color: $white;
+  }
+}
+.navbar {
+  &>.container {
+    .navbar-brand {
+      margin-left: 0;
+    }
+  }
+}
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-inverse{
+  .navbar-brand {
+    font-size: 36px;
+    @include font-size(36px, 36px, 36px, 36px, 36px, 36px, 46px);
+    @include font-properties("code", $white, normal, normal, 0);
+  }
+}
+.content-logo {
+  width: 186px;
+  display: inline-block;
+}
+.logos-bold {
+  @include font-properties("code", $moderate-green, 400, normal, 0);
+}
+
+.logos-light {
+  @include font-properties("code", $white, normal, normal, 0);
+}
+.navbar-inverse {
+  .navbar-nav {  
+    > li {
+      > a {
+        padding: 5px 12px;
+        margin: 0;
+        border-radius: 3px;
+        display: inline-block;
+        @include font-properties("code", $white, normal, normal, 0);
+        @include font-size(14px, 14px, 14px, 14px, 14px, 14px, 24px);
+      }
+    }
+  }
+}

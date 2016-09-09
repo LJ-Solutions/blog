@@ -1,0 +1,289 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 25, 2016, 10:30:50 AM
+    Author     : ronald
+*/
+/*
+  To change this license header, choose License Headers in Project Properties.
+  To change this template file, choose Tools | Templates
+  and open the template in the editor.
+*/
+/* 
+  Created on : Jul 13, 2016, 11:50:23 AM
+  Author     : ronalds
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 25, 2016, 10:56:52 AM
+    Author     : ronald
+*/
+/*
+    Set animation properties
+    @include animation(10s, 5s, changecolour)
+ */
+/* Set font properties */
+/* Letter spacing calculate to em */
+/* Line height*/
+/* Calculate font size depending of screen size */
+/* Compatible all browsers */
+footer {
+  background: #2e2e2e;
+  color: #fff; }
+
+.social {
+  text-align: center;
+  background-color: #2e2e2e;
+  padding: 45px; }
+
+.social .link {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  vertical-align: middle;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-color: #71b439;
+  border-radius: 50%;
+  border: 2px dashed #fff;
+  background-clip: content-box;
+  padding: 10px;
+  transition: 0.5s;
+  color: #fff;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2), 0 1px 0 rgba(255, 255, 255, 0.2);
+  font-size: 70px; }
+  .social .link:hover {
+    padding: 20px;
+    color: #fff;
+    margin-left: -5px;
+    transform: translateX(10px) rotate(360deg); }
+
+.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.site-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+  background: #2e2e2e; }
+
+a {
+  color: #71b439;
+  transition: color 300ms, background-color 300ms; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  letter-spacing: 0em;
+  color: #333;
+  background-color: #fff; }
+  @media (min-width: 300px) and (max-width: 480px) {
+    body {
+      font-size: 0.875em;
+      line-height: 1.71429em; } }
+  @media (min-width: 481px) and (max-width: 620px) {
+    body {
+      font-size: 0.875em;
+      line-height: 1.71429em; } }
+  @media (min-width: 621px) and (max-width: 768px) {
+    body {
+      font-size: 0.875em;
+      line-height: 1.71429em; } }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    body {
+      font-size: 0.875em;
+      line-height: 1.71429em; } }
+  @media (min-width: 1025px) and (max-width: 1220px) {
+    body {
+      font-size: 0.875em;
+      line-height: 1.71429em; } }
+  @media (min-width: 1221px) {
+    body {
+      font-size: 0.875em;
+      line-height: 1.71429em; } }
+
+.site-main {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; }
+  .site-main:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .site-main .content-left {
+    width: 66.66667%;
+    float: left;
+    max-width: 100%;
+    padding-left: 30px; }
+  .site-main .content-right {
+    width: 33.33333%;
+    float: left;
+    max-width: 100%;
+    padding-left: 30px; }
+
+.navbar-inverse {
+  border: none; }
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  background: #151515 !important;
+  padding: 15px 0;
+  padding-bottom: 0; }
+
+.navbar-toggle {
+  margin-bottom: 23px !important; }
+
+.navbar-inverse .navbar-brand {
+  font-size: 36px;
+  color: #fff; }
+
+.navbar > .container .navbar-brand {
+  margin-left: 0; }
+
+.navbar-brand {
+  padding: 0;
+  margin: 0; }
+
+.navbar-inverse .navbar-brand {
+  font-size: 36px;
+  font-family: "code";
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  letter-spacing: 0em; }
+  @media (min-width: 300px) and (max-width: 480px) {
+    .navbar-inverse .navbar-brand {
+      font-size: 2.25em;
+      line-height: 1.27778em; } }
+  @media (min-width: 481px) and (max-width: 620px) {
+    .navbar-inverse .navbar-brand {
+      font-size: 2.25em;
+      line-height: 1.27778em; } }
+  @media (min-width: 621px) and (max-width: 768px) {
+    .navbar-inverse .navbar-brand {
+      font-size: 2.25em;
+      line-height: 1.27778em; } }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .navbar-inverse .navbar-brand {
+      font-size: 2.25em;
+      line-height: 1.27778em; } }
+  @media (min-width: 1025px) and (max-width: 1220px) {
+    .navbar-inverse .navbar-brand {
+      font-size: 2.25em;
+      line-height: 1.27778em; } }
+  @media (min-width: 1221px) {
+    .navbar-inverse .navbar-brand {
+      font-size: 2.25em;
+      line-height: 1.27778em; } }
+
+.content-logo {
+  width: 186px;
+  display: inline-block; }
+
+.logos-bold {
+  font-family: "code";
+  font-weight: 400;
+  font-style: normal;
+  color: #71b439;
+  letter-spacing: 0em; }
+
+.logos-light {
+  font-family: "code";
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  letter-spacing: 0em; }
+
+.navbar-inverse .navbar-nav > li > a {
+  padding: 5px 12px;
+  margin: 0;
+  border-radius: 3px;
+  display: inline-block;
+  font-family: "code";
+  font-weight: normal;
+  font-style: normal;
+  color: #fff;
+  letter-spacing: 0em; }
+  @media (min-width: 300px) and (max-width: 480px) {
+    .navbar-inverse .navbar-nav > li > a {
+      font-size: 0.875em;
+      line-height: 1.71429em; } }
+  @media (min-width: 481px) and (max-width: 620px) {
+    .navbar-inverse .navbar-nav > li > a {
+      font-size: 0.875em;
+      line-height: 1.71429em; } }
+  @media (min-width: 621px) and (max-width: 768px) {
+    .navbar-inverse .navbar-nav > li > a {
+      font-size: 0.875em;
+      line-height: 1.71429em; } }
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .navbar-inverse .navbar-nav > li > a {
+      font-size: 0.875em;
+      line-height: 1.71429em; } }
+  @media (min-width: 1025px) and (max-width: 1220px) {
+    .navbar-inverse .navbar-nav > li > a {
+      font-size: 0.875em;
+      line-height: 1.71429em; } }
+  @media (min-width: 1221px) {
+    .navbar-inverse .navbar-nav > li > a {
+      font-size: 0.875em;
+      line-height: 1.71429em; } }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address,
+big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article,
+aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote::before, blockquote::after {
+  content: '';
+  content: none; }
+
+q::before, q::after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*# sourceMappingURL=style.css.map */
